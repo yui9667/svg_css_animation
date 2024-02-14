@@ -1,6 +1,7 @@
 body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+/*Animation*/
 .valentine {
   display: flex;
   justify-content: center;
@@ -39,10 +40,12 @@ body {
   }
 }
 
+/*SVG -HTML version-*/
 .magnifying-glas {
   margin-left: 45%;
   margin-top: 20%;
 }
+/*SVG -SVG_file version-*/
 .crown {
   margin-left: 35%;
   animation: crown_move 3s ease infinite;
