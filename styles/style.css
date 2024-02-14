@@ -1,0 +1,54 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.valentine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: #ff79bc;
+  margin-left: 35%;
+  margin-top: 10%;
+  color: #eed8e3;
+}
+
+.animation_h1 {
+  transition: 2s ease-in-out;
+}
+
+.heart {
+  width: 100px;
+  height: auto;
+  padding-top: 10%;
+  animation: heart_move 2s ease infinite;
+  color: aqua;
+}
+@keyframes heart_move {
+  0% {
+    color: aqua;
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    color: aqua;
+    transform: scale(1, 1);
+  }
+}
+
+.magnifying-glas {
+  margin-left: 45%;
+  margin-top: 20%;
+}
+.crown {
+  margin-left: 35%;
+  animation: crown_move 3s ease infinite;
+}
+@keyframes crown_move {
+  50% {
+    transform: rotate(360deg);
+  }
+}
