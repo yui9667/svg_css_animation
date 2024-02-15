@@ -1,13 +1,15 @@
  <svg 
-      width="500"
-      height="500"
-      viewBox=" 0 0 600 600"
+      width="300"
+      height="300"
+     
       fill="yellow"
       xmlns="http://www.w3.org/2000/svg"
     >
- 
-     <polygon points="70,30 250,190 150,190,200,10 250,190 150,190"/> 
-     <polygon points="320,30 250,190 150,190,200,10 250,190 150,190"/>
-     
+ <symbol id="crown" viewBox=" 0 0 300 300">
+
+     <polygon id="triangle" points="70,30 250,190 150,190,200,10 250,190 150,190"/> 
+     <use href="#triangle" points="320,30 250,190 150,190,200,10 250,190 150,190"/>
+     <polygon points="340,30 250,190 150,190,200,10 250,190 150,190"/>
      <line x1="150" y1="210" x2="250" y2="210" style="stroke:yellow;stroke-width:7" />
+     </symbol>
     </svg>
